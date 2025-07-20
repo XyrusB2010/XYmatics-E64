@@ -5,8 +5,10 @@
 	(uuid "15f8ada1-0b2d-4e5c-aedb-4f03a80df12b")
 	(paper "User" 457.2 279.4)
 	(title_block
-		(title "RPI-CM4")
-		(date "2025-07-07")
+		(title "XYmatics E64")
+		(date "2025-07-20")
+		(rev "0.0")
+		(company "XYmatics E64")
 	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1G07"
