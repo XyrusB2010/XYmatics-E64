@@ -5,7 +5,7 @@ description: "5-axis Klipper-powered mainboard"
 created_at: "2025-07-07"
 ---
 
-### <b>Total time spent: 7 hours</b>
+### <b>Total time spent: 8 hours 45 minutes</b>
 
 # 7/07/2025 - Begin PCB design
 For the PCB design, I am using KiCad with a few components imported from <a href="https://snapeda.com/">SnapEDA.</a> I have named <a href='https://github.com/XyrusB2010/XYmatics-Alpha/tree/main'>XYmatics-Alpha's</a> mainboard E64 (Engine64). It utilises a CM4/CM5 compute module running Klipper firmware to control the main MCU - an STM32F407. Like most Klipper systems, the compute module does not directly control the motors, sensors, etc, and instead outputs commands via USB to the STM32. I have completed desigining the Compute module side, and just need to complete the STM32 and other components. Below is an image of the CM4 schematic.
@@ -31,3 +31,11 @@ I have now finished the schematic for the X42. It is quite similar to the BIGTRE
 <img src="https://github.com/user-attachments/assets/298dfdd6-ca6b-4de3-b091-deef21a09c47" alt="XYmatics-E64 X42 schematic" width="500">
 
 <b>Total time - 2 hours</b>
+
+# 23/07/2025 - Update on X42
+The X42 PCB is about 75% completed, I just need to route the components for the CNC router/laser. Due to the limited amount of space on the PCB, some of the components are mounted on the back side (currently just the power supply and regulators). So far the CAN BUS, SWD, Stepper motor, Thermistor, Hotend, Fans, I2C Bus and Buttons have been placed and routed. Unfortunately, I have temporarily removed the Neopixel and BLTouch breakouts due to the lack of space, although I may re-add them later on. Below is an unfinished 3D render of the X42 PCB:
+
+<img src="https://github.com/user-attachments/assets/ea462724-94b6-45a5-af4d-d67a52dd444e" alt="X42 PCB front view" width="300" height="300">
+<img src="https://github.com/user-attachments/assets/3e4338a1-be07-48da-b687-2c748f0120a5" alt="X42 PCB back view" width="300" height="300">
+
+<b>Total time - 1 hour 45 minutes</b>
