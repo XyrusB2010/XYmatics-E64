@@ -1861,6 +1861,175 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L_Ferrite"
 			(pin_numbers hide)
 			(pin_names
@@ -7664,6 +7833,10 @@
 		(uuid "1c5939f9-19e9-4057-9276-f6a15f460e93")
 	)
 	(no_connect
+		(at 52.07 66.04)
+		(uuid "1c8db0f6-0150-4196-8e2f-6256b979a95e")
+	)
+	(no_connect
 		(at 281.94 34.29)
 		(uuid "1d365d6a-a8d6-4bc8-b5c6-4dc9a74d0840")
 	)
@@ -7672,8 +7845,28 @@
 		(uuid "1ff36d6a-9e3e-43f2-8523-f36eab6eb37c")
 	)
 	(no_connect
+		(at 102.87 60.96)
+		(uuid "315ab54b-c79c-413b-ba88-fd1cbd4f775e")
+	)
+	(no_connect
 		(at 184.15 130.81)
 		(uuid "32184d1b-7767-4983-bae6-d94012d6428b")
+	)
+	(no_connect
+		(at 52.07 116.84)
+		(uuid "43bd8794-c204-40d0-b6b0-0f5bb8cbf42e")
+	)
+	(no_connect
+		(at 102.87 66.04)
+		(uuid "491a3370-54cf-4af7-8f04-f8e18c365a7a")
+	)
+	(no_connect
+		(at 52.07 134.62)
+		(uuid "4e5167a5-6213-4f7f-b51e-228aad53467b")
+	)
+	(no_connect
+		(at 52.07 121.92)
+		(uuid "510953a4-f99a-4cc2-bd40-fb6779672135")
 	)
 	(no_connect
 		(at 246.38 54.61)
@@ -7682,6 +7875,14 @@
 	(no_connect
 		(at 148.59 143.51)
 		(uuid "553580f0-b16a-4c2e-81e2-d554ef7a539d")
+	)
+	(no_connect
+		(at 102.87 78.74)
+		(uuid "57652eb9-7dc6-4d7f-abe0-f3d6139e5948")
+	)
+	(no_connect
+		(at 52.07 142.24)
+		(uuid "58e9fcfb-e579-48c0-a95f-24a6aa9324bb")
 	)
 	(no_connect
 		(at 148.59 100.33)
@@ -7696,16 +7897,40 @@
 		(uuid "63e5cd43-5336-4233-b7a7-a09b7f78a3f1")
 	)
 	(no_connect
+		(at 52.07 86.36)
+		(uuid "65a3c322-7a3a-4d6e-b33b-0e981a16b894")
+	)
+	(no_connect
 		(at 148.59 95.25)
 		(uuid "6797b642-c390-4506-83de-84a3123db915")
+	)
+	(no_connect
+		(at 52.07 127)
+		(uuid "697973ad-46d4-44fb-a59b-2e02df1490c2")
 	)
 	(no_connect
 		(at 246.38 52.07)
 		(uuid "69fa4447-c96c-44b3-81c3-87e09341c46b")
 	)
 	(no_connect
+		(at 102.87 144.78)
+		(uuid "6a5d2d90-7405-45d7-a1c7-0f7f9f633943")
+	)
+	(no_connect
+		(at 102.87 134.62)
+		(uuid "6e2859c8-a57a-4361-b315-011cfcdd06e4")
+	)
+	(no_connect
 		(at 148.59 102.87)
 		(uuid "7096a90b-5ae4-45bc-a8f5-94587552c53d")
+	)
+	(no_connect
+		(at 52.07 137.16)
+		(uuid "7b519514-8968-4ac0-8d86-03e922935d08")
+	)
+	(no_connect
+		(at 52.07 129.54)
+		(uuid "7cbab609-91fb-46ae-a3ed-27bc4cf89246")
 	)
 	(no_connect
 		(at 246.38 46.99)
@@ -7716,16 +7941,52 @@
 		(uuid "8baa1bba-4a7f-4710-9598-d44aff276ab1")
 	)
 	(no_connect
+		(at 102.87 147.32)
+		(uuid "8d46cf2b-487d-46bc-8561-61d64884d01b")
+	)
+	(no_connect
+		(at 52.07 124.46)
+		(uuid "96d1019c-b04f-4627-9c30-747ce5b02a52")
+	)
+	(no_connect
+		(at 102.87 88.9)
+		(uuid "99840f76-f185-4d1f-92cc-414407e5ff4d")
+	)
+	(no_connect
+		(at 52.07 119.38)
+		(uuid "ab8df987-4c30-42d8-898a-9def8874462d")
+	)
+	(no_connect
+		(at 52.07 144.78)
+		(uuid "ace3585b-b83d-4359-83b1-40a4b2bc9c51")
+	)
+	(no_connect
 		(at 148.59 49.53)
 		(uuid "ad880ee5-5c18-4852-8ed9-be01ad909fbc")
+	)
+	(no_connect
+		(at 52.07 111.76)
+		(uuid "b079b424-7349-47f3-a2ba-633b62391a87")
 	)
 	(no_connect
 		(at 148.59 97.79)
 		(uuid "b437987b-0408-4b46-a1c5-0b0c909f544d")
 	)
 	(no_connect
+		(at 52.07 139.7)
+		(uuid "b479a6f6-61b9-49fc-b2ad-ab6af4d29977")
+	)
+	(no_connect
 		(at 148.59 52.07)
 		(uuid "b56b544b-92c6-4ee0-a546-a776213556d7")
+	)
+	(no_connect
+		(at 52.07 81.28)
+		(uuid "b5d1f66b-9c4f-4bc8-840f-2adc881e8bf2")
+	)
+	(no_connect
+		(at 102.87 137.16)
+		(uuid "be9df1b7-d350-46ac-8b21-f65548911e74")
 	)
 	(no_connect
 		(at 102.87 162.56)
@@ -7740,12 +8001,20 @@
 		(uuid "c7825142-193c-4b7a-ac37-9474a1872d01")
 	)
 	(no_connect
-		(at 102.87 109.22)
-		(uuid "e43e415b-6de7-4e29-a646-1ede225d04a8")
+		(at 52.07 88.9)
+		(uuid "d7fb9bd6-5bd4-4582-8255-aa22812fe757")
 	)
 	(no_connect
-		(at 102.87 165.1)
-		(uuid "e5734aac-959a-440f-9acd-e2587f19961d")
+		(at 102.87 142.24)
+		(uuid "d86becd6-dcaa-4dd9-8ed4-f91df41475c6")
+	)
+	(no_connect
+		(at 102.87 63.5)
+		(uuid "e109662a-11ee-4785-980f-74e849d788a4")
+	)
+	(no_connect
+		(at 102.87 109.22)
+		(uuid "e43e415b-6de7-4e29-a646-1ede225d04a8")
 	)
 	(no_connect
 		(at 184.15 82.55)
@@ -7760,8 +8029,20 @@
 		(uuid "f235a830-3282-4d51-988d-4981ecb380c7")
 	)
 	(no_connect
+		(at 52.07 132.08)
+		(uuid "f570e362-e555-46d5-bf22-086fc3ac8ca4")
+	)
+	(no_connect
+		(at 52.07 63.5)
+		(uuid "f6e4d556-d550-43c6-b6f8-71e4f94ff521")
+	)
+	(no_connect
 		(at 246.38 49.53)
 		(uuid "f9b846e7-f1e5-4c07-bba1-d019df89e970")
+	)
+	(no_connect
+		(at 52.07 114.3)
+		(uuid "fbcd4438-ab3a-41ad-88e5-8f46a3738516")
 	)
 	(no_connect
 		(at 184.15 34.29)
@@ -9919,6 +10200,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 165.1) (xy 105.41 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aeb6c27-dc8d-4f5d-80cc-b3e0016b0fcc")
+	)
+	(wire
+		(pts
 			(xy 223.52 175.26) (xy 223.52 177.8)
 		)
 		(stroke
@@ -10049,6 +10340,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 27.94) (xy 67.31 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730e0668-2a12-468f-ae6d-ac0939697a91")
+	)
+	(wire
+		(pts
 			(xy 278.13 209.55) (xy 283.21 209.55)
 		)
 		(stroke
@@ -10136,6 +10437,16 @@
 			(type default)
 		)
 		(uuid "77dd2f7f-32cf-461f-8ca6-aeeb1f40eff0")
+	)
+	(wire
+		(pts
+			(xy 59.69 27.94) (xy 57.15 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77fd76bf-3ce9-46c5-ab57-24c1ce61d8c6")
 	)
 	(wire
 		(pts
@@ -10286,6 +10597,16 @@
 			(type default)
 		)
 		(uuid "7e8f545e-dea5-4d76-aa59-5df9e04672a2")
+	)
+	(wire
+		(pts
+			(xy 49.53 27.94) (xy 46.99 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec91f59-3a6a-4adc-bfd2-b5ce2d7cd609")
 	)
 	(wire
 		(pts
@@ -10566,6 +10887,16 @@
 			(type default)
 		)
 		(uuid "8ac1d395-0d84-42a2-8104-68f24705e146")
+	)
+	(wire
+		(pts
+			(xy 123.19 165.1) (xy 125.73 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afa3c6b-81fa-4231-bf8c-a3fe5afd52c9")
 	)
 	(wire
 		(pts
@@ -12979,6 +13310,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 165.1) (xy 115.57 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b6c643-2d9e-4d43-bc3e-66f0a919a97f")
+	)
+	(wire
+		(pts
 			(xy 246.38 82.55) (xy 243.84 82.55)
 		)
 		(stroke
@@ -14542,7 +14883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 109.22 93.218 90)
 			(effects
 				(font
@@ -14609,7 +14950,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 109.22 105.918 90)
 			(effects
 				(font
@@ -14676,7 +15017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical"
 			(at 93.98 199.39 0)
 			(effects
 				(font
@@ -14820,7 +15161,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 189.23 118.4148 0)
 			(effects
 				(font
@@ -14889,7 +15230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 211.7852 87.63 0)
 			(effects
 				(font
@@ -15088,7 +15429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 204.1652 39.37 0)
 			(effects
 				(font
@@ -15155,7 +15496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical"
 			(at 43.18 199.39 0)
 			(effects
 				(font
@@ -15230,7 +15571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 309.5752 39.37 0)
 			(effects
 				(font
@@ -15368,7 +15709,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 298.45 166.878 90)
 			(effects
 				(font
@@ -15565,7 +15906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 267.208 135.89 90)
 			(effects
 				(font
@@ -15633,7 +15974,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 104.14 27.94 0)
 			(effects
 				(font
@@ -15701,7 +16042,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 172.72 232.41 0)
 			(effects
 				(font
@@ -15769,7 +16110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 294.64 128.5748 0)
 			(effects
 				(font
@@ -15839,7 +16180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 251.46 214.63 0)
 			(effects
 				(font
@@ -15936,7 +16277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical"
 			(at 119.38 199.39 0)
 			(effects
 				(font
@@ -16354,6 +16695,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 109.22 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18d089df-1fc5-42cb-899c-a901232eda64")
+		(property "Reference" "R81"
+			(at 109.22 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 109.22 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 109.22 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c523cb78-84fb-4299-89d2-a97cd4c9f4c5")
+		)
+		(pin "1"
+			(uuid "32095026-116a-46d4-b03b-cab3cd880062")
+		)
+		(instances
+			(project "xymatics-e64"
+				(path "/0b623d23-bb96-4cb3-be8c-180bf957f458"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 342.9 106.68 0)
 		(unit 1)
@@ -16446,7 +16854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
 			(at 317.1952 39.37 0)
 			(effects
 				(font
@@ -16644,7 +17052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 234.95 218.948 90)
 			(effects
 				(font
@@ -16781,7 +17189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 109.22 118.618 90)
 			(effects
 				(font
@@ -16848,7 +17256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical"
 			(at 55.88 199.39 0)
 			(effects
 				(font
@@ -16923,7 +17331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 211.7852 135.89 0)
 			(effects
 				(font
@@ -17194,7 +17602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 320.04 214.63 0)
 			(effects
 				(font
@@ -17357,7 +17765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 45.72 56.642 90)
 			(effects
 				(font
@@ -17424,7 +17832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 39.878 215.9 90)
 			(effects
 				(font
@@ -17533,6 +17941,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 119.38 165.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30ae457e-5c1e-4121-adac-1d7eb538f757")
+		(property "Reference" "D19"
+			(at 120.9675 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STM32 STATUS"
+			(at 120.9675 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 119.38 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 119.38 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab5f219c-db41-4b1a-9ac8-3e75ebb8bbf3")
+		)
+		(pin "1"
+			(uuid "1a8408ed-97b6-4dde-bdf0-9bfccd2516a1")
+		)
+		(instances
+			(project "xymatics-e64"
+				(path "/0b623d23-bb96-4cb3-be8c-180bf957f458"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 303.53 217.17 270)
 		(mirror x)
@@ -17558,7 +18035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 303.53 218.948 90)
 			(effects
 				(font
@@ -17692,7 +18169,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 30.48 48.5648 0)
 			(effects
 				(font
@@ -17827,7 +18304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 354.33 214.63 0)
 			(effects
 				(font
@@ -17991,7 +18468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 204.1652 135.89 0)
 			(effects
 				(font
@@ -18058,7 +18535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 242.57 179.578 90)
 			(effects
 				(font
@@ -18194,7 +18671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 94.9452 25.4 0)
 			(effects
 				(font
@@ -18261,7 +18738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 128.27 246.888 90)
 			(effects
 				(font
@@ -18395,7 +18872,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 229.87 179.578 90)
 			(effects
 				(font
@@ -18830,7 +19307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 39.37 147.6248 0)
 			(effects
 				(font
@@ -18897,7 +19374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical"
 			(at 81.28 199.39 0)
 			(effects
 				(font
@@ -18940,6 +19417,74 @@
 			(project "xymatics-e64"
 				(path "/0b623d23-bb96-4cb3-be8c-180bf957f458"
 					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 53.34 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "438260d3-6c6f-4045-991f-b7c6fa3629c8")
+		(property "Reference" "D18"
+			(at 51.7525 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STM32 POWER"
+			(at 51.7525 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c65861ab-7159-46a2-99b1-711798f92c8e")
+		)
+		(pin "1"
+			(uuid "965c6d24-a873-494a-a4e5-12a5bdc7954b")
+		)
+		(instances
+			(project "xymatics-e64"
+				(path "/0b623d23-bb96-4cb3-be8c-180bf957f458"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -19315,6 +19860,74 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 63.5 27.94 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ba30737-d90a-401b-833a-8e796fe1d90e")
+		(property "Reference" "R80"
+			(at 63.5 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5K"
+			(at 63.5 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 63.5 29.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6a0fa79-d5da-4807-9520-e426be2bdfdb")
+		)
+		(pin "1"
+			(uuid "b7dfbaaf-b19a-4f84-95ef-c8653d9ee896")
+		)
+		(instances
+			(project "xymatics-e64"
+				(path "/0b623d23-bb96-4cb3-be8c-180bf957f458"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 317.5 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19338,7 +19951,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 319.278 140.97 90)
 			(effects
 				(font
@@ -19709,7 +20322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 249.8852 175.26 0)
 			(effects
 				(font
@@ -20052,7 +20665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 217.17 214.63 0)
 			(effects
 				(font
@@ -20280,7 +20893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 168.91 246.888 90)
 			(effects
 				(font
@@ -20348,7 +20961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 109.22 100.838 90)
 			(effects
 				(font
@@ -20416,7 +21029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 287.02 21.8948 0)
 			(effects
 				(font
@@ -20484,7 +21097,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 337.82 218.948 90)
 			(effects
 				(font
@@ -20685,7 +21298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 267.208 148.59 90)
 			(effects
 				(font
@@ -20817,7 +21430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical"
 			(at 68.58 199.39 0)
 			(effects
 				(font
@@ -20957,7 +21570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 88.5952 25.4 0)
 			(effects
 				(font
@@ -21024,7 +21637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 319.278 153.67 90)
 			(effects
 				(font
@@ -21166,7 +21779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 331.7748 106.68 0)
 			(effects
 				(font
@@ -21227,7 +21840,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1UF"
+		(property "Value" "100NF"
 			(at 157.226 199.39 0)
 			(effects
 				(font
@@ -21236,7 +21849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 156.5148 200.66 0)
 			(effects
 				(font
@@ -21370,7 +21983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 301.9552 87.63 0)
 			(effects
 				(font
@@ -21439,7 +22052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
 			(at 219.4052 135.89 0)
 			(effects
 				(font
@@ -21506,7 +22119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 147.32 245.11 0)
 			(effects
 				(font
@@ -21721,7 +22334,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 269.24 218.948 90)
 			(effects
 				(font
@@ -21855,7 +22468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
 			(at 354.0252 106.68 0)
 			(effects
 				(font
@@ -21922,7 +22535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 109.22 113.538 90)
 			(effects
 				(font
@@ -22229,7 +22842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
 			(at 241.6048 139.7 0)
 			(effects
 				(font
@@ -22296,7 +22909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 353.06 60.198 90)
 			(effects
 				(font
@@ -22562,7 +23175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical"
 			(at 106.68 199.39 0)
 			(effects
 				(font
@@ -22635,7 +23248,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm"
 			(at 33.02 57.15 0)
 			(effects
 				(font
@@ -23142,7 +23755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 307.34 133.6548 0)
 			(effects
 				(font
@@ -23342,7 +23955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
 			(at 219.4052 87.63 0)
 			(effects
 				(font
@@ -23477,7 +24090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 149.86 185.42 0)
 			(effects
 				(font
@@ -23544,7 +24157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 353.06 29.718 90)
 			(effects
 				(font
@@ -23611,7 +24224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 109.22 108.458 90)
 			(effects
 				(font
@@ -23748,7 +24361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 189.23 70.1548 0)
 			(effects
 				(font
@@ -23818,7 +24431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 249.2248 139.7 0)
 			(effects
 				(font
@@ -24284,7 +24897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 109.22 121.158 90)
 			(effects
 				(font
@@ -24353,7 +24966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 298.45 169.418 90)
 			(effects
 				(font
@@ -24619,7 +25232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
 			(at 326.0852 142.24 0)
 			(effects
 				(font
@@ -24953,7 +25566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 97.79 244.1448 0)
 			(effects
 				(font
@@ -25023,7 +25636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 256.8448 139.7 0)
 			(effects
 				(font
@@ -25092,7 +25705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 204.1652 87.63 0)
 			(effects
 				(font
@@ -25161,7 +25774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 211.7852 39.37 0)
 			(effects
 				(font
@@ -25229,7 +25842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 109.22 103.378 90)
 			(effects
 				(font
@@ -25299,7 +25912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
 			(at 317.1952 87.63 0)
 			(effects
 				(font
@@ -25367,7 +25980,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 30.48 67.0052 0)
 			(effects
 				(font
@@ -25436,7 +26049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 309.5752 87.63 0)
 			(effects
 				(font
@@ -25569,7 +26182,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 225.298 171.45 90)
 			(effects
 				(font
@@ -25637,7 +26250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 180.34 185.42 0)
 			(effects
 				(font
@@ -25704,7 +26317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 353.06 44.958 90)
 			(effects
 				(font
@@ -25841,7 +26454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 109.22 123.698 90)
 			(effects
 				(font
@@ -26040,7 +26653,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 349.25 129.54 0)
 			(effects
 				(font
@@ -26111,7 +26724,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 200.66 218.948 90)
 			(effects
 				(font
@@ -26179,7 +26792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 138.938 215.9 90)
 			(effects
 				(font
@@ -26356,6 +26969,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 46.99 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3c4a6a7-645f-4aec-af5d-92a6b2341d7a")
+		(property "Reference" "#PWR139"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f506784-977c-441c-afbe-6a973c8d44c6")
+		)
+		(instances
+			(project "xymatics-e64"
+				(path "/0b623d23-bb96-4cb3-be8c-180bf957f458"
+					(reference "#PWR139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 109.22 96.52 90)
 		(unit 1)
@@ -26381,7 +27059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 109.22 98.298 90)
 			(effects
 				(font
@@ -26451,7 +27129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
 			(at 219.4052 39.37 0)
 			(effects
 				(font
@@ -26629,6 +27307,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 125.73 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c838ef09-31a8-49a3-a084-199b6607acf3")
+		(property "Reference" "#PWR135"
+			(at 132.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6283473-7118-4f01-a734-0e9edd43ae0d")
+		)
+		(instances
+			(project "xymatics-e64"
+				(path "/0b623d23-bb96-4cb3-be8c-180bf957f458"
+					(reference "#PWR135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:B340")
 		(at 283.21 203.2 270)
 		(unit 1)
@@ -26793,7 +27536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 285.75 214.63 0)
 			(effects
 				(font
@@ -26893,7 +27636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 185.42 242.57 0)
 			(effects
 				(font
@@ -26990,7 +27733,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 84.328 251.46 90)
 			(effects
 				(font
@@ -27058,7 +27801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 109.22 95.758 90)
 			(effects
 				(font
@@ -27388,7 +28131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 109.22 116.078 90)
 			(effects
 				(font
@@ -27455,7 +28198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 164.338 251.46 90)
 			(effects
 				(font
@@ -27656,7 +28399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 301.9552 39.37 0)
 			(effects
 				(font
@@ -28052,7 +28795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical"
 			(at 132.08 199.39 0)
 			(effects
 				(font
@@ -28127,7 +28870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
 			(at 333.7052 142.24 0)
 			(effects
 				(font
@@ -28195,7 +28938,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 39.37 152.7048 0)
 			(effects
 				(font
@@ -28263,7 +29006,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 215.9 177.8 0)
 			(effects
 				(font
@@ -28330,7 +29073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 189.738 196.85 90)
 			(effects
 				(font
@@ -28529,7 +29272,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 279.4 165.1 0)
 			(effects
 				(font
@@ -28668,7 +29411,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 189.23 21.8948 0)
 			(effects
 				(font
@@ -29234,7 +29977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 84.328 238.76 90)
 			(effects
 				(font
@@ -29439,7 +30182,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
 			(at 311.15 132.08 0)
 			(effects
 				(font
@@ -29574,7 +30317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 287.02 70.1548 0)
 			(effects
 				(font
