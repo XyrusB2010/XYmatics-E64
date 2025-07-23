@@ -19,8 +19,14 @@ XYmatics X42 (Xpansion, for 42mm motors) is a Klipper expansion board, designed 
 - Powered by STM32G0B1CBT6
 - Supports Laser engravers, CNC routers and FDM extruders
 - TJA1051T CAN FD module to communicate with E64
-- BLTouch compatible
+- ~~BLTouch compatible~~
 - Two PWM controllable fans
 - ADXL345 accelerometer included
-- 3 Endstops/Switches
-- I2C bus and neopixel broken out
+- ~~3~~ 1 Endstop/Switch
+- I2C bus ~~and neopixel~~ broken out
+>  [!NOTE]
+>  May re-add these removed features in future if possible.
+
+## X42 PCB (Unfinished)
+<img src="https://github.com/user-attachments/assets/ea462724-94b6-45a5-af4d-d67a52dd444e" alt="X42 PCB front view" width="300" height="300">
+<img src="https://github.com/user-attachments/assets/3e4338a1-be07-48da-b687-2c748f0120a5" alt="X42 PCB back view" width="300" height="300">
