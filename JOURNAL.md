@@ -5,7 +5,7 @@ description: "5-axis Klipper-powered mainboard"
 created_at: "2025-07-07"
 ---
 
-### <b>Total time spent: 8 hours 45 minutes</b>
+### <b>Total time spent: 10 hours 45 minutes</b>
 
 # 7/07/2025 - Begin PCB design
 For the PCB design, I am using KiCad with a few components imported from <a href="https://snapeda.com/">SnapEDA.</a> I have named <a href='https://github.com/XyrusB2010/XYmatics-Alpha/tree/main'>XYmatics-Alpha's</a> mainboard E64 (Engine64). It utilises a CM4/CM5 compute module running Klipper firmware to control the main MCU - an STM32F407. Like most Klipper systems, the compute module does not directly control the motors, sensors, etc, and instead outputs commands via USB to the STM32. I have completed desigining the Compute module side, and just need to complete the STM32 and other components. Below is an image of the CM4 schematic.
@@ -39,3 +39,11 @@ The X42 PCB is about 75% completed, I just need to route the components for the 
 <img src="https://github.com/user-attachments/assets/3e4338a1-be07-48da-b687-2c748f0120a5" alt="X42 PCB back view" width="300" height="300">
 
 <b>Total time - 1 hour 45 minutes</b>
+
+# 25/07/2025 - Finish X42 PCB
+I have now finished designing the PCB for the X42. All GPIOs/breakouts are on the front side, while the power supply and ADXL345 are mounted on the back. Endstops have also been removed due to the small amount of remaining space. This will be added in the first revision. I will begin to route the Raspberry Pi components on the E64, starting with the power supply. Below is a completed 3D render of the X42 PCB:
+
+<img src="https://github.com/user-attachments/assets/8b807d25-d33c-4b2a-ac7d-c70b8015cccc" alt="X42 PCB front view" width="300" height="300">
+<img src="https://github.com/user-attachments/assets/a9e47e3d-d03b-45a2-a376-7b630557bc3e" alt="X42 PCB back view" width="300" height="300">
+
+<b>Total time - 2 hours</b>
