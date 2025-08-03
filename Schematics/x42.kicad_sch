@@ -6940,12 +6940,6 @@
 		(uuid "7f37d820-ab80-4324-a61a-1f6942edcec3")
 	)
 	(junction
-		(at 332.74 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "802a858a-349e-408e-8dd9-0c38eff3fa1b")
-	)
-	(junction
 		(at 285.75 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7126,6 +7120,10 @@
 		(uuid "5dcf20f9-3c9c-4d75-9d40-b2e737fa30d8")
 	)
 	(no_connect
+		(at 330.2 53.34)
+		(uuid "6344cd17-963f-4f29-87ab-d94656860713")
+	)
+	(no_connect
 		(at 116.84 73.66)
 		(uuid "6f77c458-4205-4921-bacd-03d65dc15bdc")
 	)
@@ -7144,6 +7142,10 @@
 	(no_connect
 		(at 116.84 60.96)
 		(uuid "90b56ab1-53dc-4315-b3e5-97db93d48322")
+	)
+	(no_connect
+		(at 335.28 53.34)
+		(uuid "93d9cfc3-107a-4738-b2f1-234e2cad5617")
 	)
 	(no_connect
 		(at 60.96 78.74)
@@ -7645,16 +7647,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 53.34) (xy 330.2 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f1456c0-14a4-427a-b8c3-bb31000ed9d8")
-	)
-	(wire
-		(pts
 			(xy 152.4 168.91) (xy 160.02 168.91)
 		)
 		(stroke
@@ -8102,16 +8094,6 @@
 			(type default)
 		)
 		(uuid "3a4670cf-8f88-410c-9b34-e8ebe74d6256")
-	)
-	(wire
-		(pts
-			(xy 330.2 55.88) (xy 332.74 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a48cb28-35ac-411a-bc4f-fa7091276084")
 	)
 	(wire
 		(pts
@@ -8635,16 +8617,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 55.88) (xy 332.74 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "685f0edf-1c17-4cf8-97b3-afd714f6009c")
-	)
-	(wire
-		(pts
 			(xy 204.47 20.32) (xy 207.01 20.32)
 		)
 		(stroke
@@ -8942,16 +8914,6 @@
 			(type default)
 		)
 		(uuid "7b18ed67-05b5-47a2-991a-0d55e63585c2")
-	)
-	(wire
-		(pts
-			(xy 335.28 53.34) (xy 335.28 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c144312-0d20-4ef6-b98b-cfe67967107a")
 	)
 	(wire
 		(pts
@@ -10225,16 +10187,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 55.88) (xy 335.28 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dac7ac45-deaa-495a-8783-ebdbd2641831")
-	)
-	(wire
-		(pts
 			(xy 46.99 139.7) (xy 46.99 142.24)
 		)
 		(stroke
@@ -11392,16 +11344,6 @@
 			(justify right bottom)
 		)
 		(uuid "9bfaf017-3e1c-4180-9de1-bc8621794b98")
-	)
-	(label "XGND"
-		(at 332.74 58.42 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9fa49f2e-2a12-4d18-ade4-55d1c3684379")
 	)
 	(label "XGND"
 		(at 260.35 142.24 0)
