@@ -5,7 +5,7 @@ description: "5-axis Klipper-powered mainboard"
 created_at: "2025-07-07"
 ---
 
-### <b>Total time spent: 10 hours 45 minutes</b>
+### <b>Total time spent: 13 hours 45 minutes</b>
 
 # 7/07/2025 - Begin PCB design
 For the PCB design, I am using KiCad with a few components imported from <a href="https://snapeda.com/">SnapEDA.</a> I have named <a href='https://github.com/XyrusB2010/XYmatics-Alpha/tree/main'>XYmatics-Alpha's</a> mainboard E64 (Engine64). It utilises a CM4/CM5 compute module running Klipper firmware to control the main MCU - an STM32F407. Like most Klipper systems, the compute module does not directly control the motors, sensors, etc, and instead outputs commands via USB to the STM32. I have completed desigining the Compute module side, and just need to complete the STM32 and other components. Below is an image of the CM4 schematic.
@@ -47,3 +47,10 @@ I have now finished designing the PCB for the X42. All GPIOs/breakouts are on th
 <img src="https://github.com/user-attachments/assets/a9e47e3d-d03b-45a2-a376-7b630557bc3e" alt="X42 PCB back view" width="300" height="300">
 
 <b>Total time - 2 hours</b>
+
+# 31/07/2025 - E64 PCB complete
+6 days later, the E64 PCB has been finished. Please note that the RPI-GPIO isn't fully broken out, only +5V, +3.3V and I2C Bus have been. Notice how the RPI electronics are on one side while the F407 is on the other, this is to reduce complications with the design. 3 M3 mounting holes have been placed in the corners. The rough dimensions of the board are 192x98mm. The next step is to write the firmware for Klipper, which shouldn't be too hard. Here is a 3D render of the E64 PCB:
+
+<img src="https://github.com/user-attachments/assets/c1ebf41c-d44c-4018-8ba8-155ea10e4590" alt="E64 PCB front view" width="500">
+
+<b>Total time - 3 hours</b>
