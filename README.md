@@ -12,6 +12,9 @@ XYmatics E64 (Engine, 64-bit) is a 5-axis Klipper mainboard, powered by a Raspbe
 - HDMI or DSI for display output
 - I2C bus broken out
 
+## E64 PCB
+<img src="https://github.com/user-attachments/assets/3666f2f9-8a2c-4181-a9a2-72328bd6c555" alt="E64 PCB">
+
 # XYmatics X42
 XYmatics X42 (Xpansion, for 42mm motors) is a Klipper expansion board, designed to mount onto 42mm stepper motors. Powered by a STM32G0B1, it communicates to the E64 mainboard through CAN FD. This board simplifies the mainboard, and reduces the amount of cables going out. The X42 can also be used with most other 3D Printers.
 
@@ -27,6 +30,6 @@ XYmatics X42 (Xpansion, for 42mm motors) is a Klipper expansion board, designed 
 >  [!NOTE]
 >  May re-add these removed features in future if possible.
 
-## X42 PCB (Unfinished)
-<img src="https://github.com/user-attachments/assets/ea462724-94b6-45a5-af4d-d67a52dd444e" alt="X42 PCB front view" width="300" height="300">
-<img src="https://github.com/user-attachments/assets/3e4338a1-be07-48da-b687-2c748f0120a5" alt="X42 PCB back view" width="300" height="300">
+## X42 PCB
+<img src="https://github.com/user-attachments/assets/d4ca1c45-a94d-4c25-9ed2-39776c4dd5d3" alt="X42 PCB front view" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/9a6bdf57-31d1-4693-97cc-d2188163e315" alt="X42 PCB back view" width="400" height="400">
